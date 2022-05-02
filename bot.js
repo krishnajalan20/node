@@ -1558,7 +1558,7 @@ bot.action("approve",async(ctx) => {
 
              let amount = toWith
 
-             let url = 'https://job2all.xyz/api/index.php?mid='+mid+'&mkey='+mkey+'&guid='+swg+'&mob='+wallet+'&amount='+amount+'&info='+comment;
+             let url = 'https://full2sms.in/api/v1/disburse/paytm?mid='+mid+'&mkey='+mkey+'&guid='+swg+'&mob='+wallet+'&amount='+amount+'&info='+comment;
 
              axios.post(url);
 
