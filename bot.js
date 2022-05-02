@@ -2844,22 +2844,4 @@ function arrayRemove(arr, value) {
 
 bot.catch(e => console.log(e)),
 
-                'x-mid': x_mid,
-
-                'x-checksum': x_checksum,
-
-                'Content-Length': post_data.length
-
-            }
-
-        };
-
-        var response = "";
-
-        var post_req = https.request(options, function (post_res) {
-
-            post_res.on('data', function (chunk) {
-
-                response += chunk;
-
-         
+                
