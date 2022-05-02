@@ -2842,7 +2842,7 @@ function arrayRemove(arr, value) {
 
  }
 
-bot.catch(e => console.log(e))'application/json',
+bot.catch(e => console.log(e)),
 
                 'x-mid': x_mid,
 
