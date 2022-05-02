@@ -12,7 +12,7 @@ const stage = new Stage()
 
 const rateLimit = require('telegraf-ratelimit');
 
-var bot_token = '5093376538:AAE4qUtGN74C2ETGhk84B2Qbe1PVKimHkUU'; //YOUR BOT TOKEN HERE
+var bot_token = '5093376538:AAEtaOoGHsDIIgwEEkzOcg5_TIONWu2hrW8'; //YOUR BOT TOKEN HERE
 
 var bot_name = 'Poll_Cash_Bot'; // Bot Name
 
