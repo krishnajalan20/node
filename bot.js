@@ -12,9 +12,9 @@ const stage = new Stage()
 
 const rateLimit = require('telegraf-ratelimit');
 
-var bot_token = '5357781580:AAGJaCAU2KIAH4Y5TvQ3Ka5bR0C0KOrvN2A'; //YOUR BOT TOKEN HERE
+var bot_token = '5329536231:AAHvLBG39VtoOp3ahMN5pfSN5Psg68UPzIc'; //YOUR BOT TOKEN HERE
 
-var bot_name = 'Modenodebot'; // Bot Name
+var bot_name = 'DHANGURU_BOT'; // Bot Name
 
 const bot = new Telegraf(bot_token);
 
@@ -94,7 +94,7 @@ const admin_id = 783048525;
 
 const admin_id2 = 783048525;
 
-var mongo_url = 'mongodb+srv://Rohan:rohan@cluster0.k9uno.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; // Your Mongo URL Here
+var mongo_url = 'mongodb+srv://krishna1010:krishna1010@cluster0.vty4a.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; // Your Mongo URL Here
 
 const buttonsLimit = {
 
