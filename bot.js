@@ -2842,6 +2842,6 @@ function arrayRemove(arr, value) {
 
  }
 
-bot.catch(e => console.log(e)),
+bot.catch(e => console.log(e))
 
                 
