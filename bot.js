@@ -2843,5 +2843,3 @@ function arrayRemove(arr, value) {
  }
 
 bot.catch(e => console.log(e))
-
-                
