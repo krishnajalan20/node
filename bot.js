@@ -1352,7 +1352,7 @@ onWithdraw.on('text', async (ctx) => {
 
                 let inc = await db.collection('allUsers').find({ stats: "stats" }).toArray()
 
-                let toinc = (inc[0].value * 1) + parseInt(ctx.message.text)
+                
 
                 let ub = userbalance[0].balance * 1
 
