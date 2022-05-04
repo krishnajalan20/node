@@ -1192,7 +1192,6 @@ bot.hears('/add', async (ctx) => {
 
 })
 
-let admin = await db.collection('admindb').find({ admin: "admin" }).toArray()
 broadcast.on('text', async (ctx) => {
 
     try {
