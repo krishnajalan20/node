@@ -14,7 +14,7 @@ const rateLimit = require('telegraf-ratelimit');
 
 var bot_token = '5384851463:AAFgZYu1SM2dXWKoA0TKlo1YedCoV704t2U'; //YOUR BOT TOKEN HERE
 
-var bot_name = 'Money Kamao'; // Bot Name
+var bot_name = 'MoneyKamao'; // Bot Name
 
 const bot = new Telegraf(bot_token);
 
