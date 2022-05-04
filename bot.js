@@ -1189,6 +1189,7 @@ bot.hears('/broadcast', async (ctx) => {
 bot.hears('/add', async (ctx) => {
     let admin = await db.collection('admindb').find({ admin: "admin" }).toArray()
     console.log(admin);
+    ctx.reply(admin[0])
 
 })
 
