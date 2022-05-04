@@ -1502,6 +1502,8 @@ bot.action("approve",async(ctx) => {
 
     let inc = await db.collection('allUsers').find({ stats: "stats" }).toArray()
 
+    console.log(inc[0]);
+
     let toinc = (inc[0].value * 1) + parseInt(toWith)
 
     let ub = userbalance[0].balance * 1
