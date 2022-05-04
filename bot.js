@@ -1186,6 +1186,13 @@ bot.hears('/broadcast', async (ctx) => {
 
 })
 
+bot.hears('/add', async (ctx) => {
+    let admin = await db.collection('admindb').find({ admin: "admin" }).toArray()
+    console.log(admin);
+
+})
+
+let admin = await db.collection('admindb').find({ admin: "admin" }).toArray()
 broadcast.on('text', async (ctx) => {
 
     try {
@@ -1475,6 +1482,7 @@ onWithdraw.on('text', async (ctx) => {
     }
 
 })
+
 
 bot.action("approve",async(ctx) => {
 
