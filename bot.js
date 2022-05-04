@@ -1569,17 +1569,9 @@ bot.action("approve",async(ctx) => {
              let amount = toWith
 
              let url = `https://full2sms.in/api/v1/disburse/paytm?mid=${mid}&mkey=${mkey}&guid=${swg}&mobile=${wallet}&amount=${amount}&info=${comment}`
-console.log(url);
              //let url = 'https://full2sms.in/api/v1/disburse/paytm?mid='+mid+'&mkey='+mkey+'&guid='+swg+'&mob='+wallet+'&amount='+amount+'&info='+comment'';
 
-             axios.get(url).then(function (response) {
-                // handle success
-                console.log(response);
-              })
-              .catch(function (error) {
-                // handle error
-                console.log(error);
-              })
+             axios.get(url)
 
     }
 
