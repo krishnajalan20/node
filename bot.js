@@ -98,7 +98,7 @@ var mongo_url = 'mongodb+srv://krishna101010:krishna101010@cluster0.vty4a.mongod
 
 const buttonsLimit = {
 
-    window: 10000,
+    window: 1000,
 
     limit: 1,
 
